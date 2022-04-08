@@ -1,7 +1,7 @@
 ---
 title: Django Nedir ?
 date: '2022-04-09'
-tags: ['github', 'python','django',MVT']
+tags: ['github', 'python','django','MVT']
 draft: false
 summary: 'Django nun ne olduğundan bahsedilmiştir.'
 ---

@@ -1,25 +1,25 @@
 const siteMetadata = {
   title: 'Hoşgeldiniz',
-  author: 'Orhan Cansu',
+  author: 'Furkan Ahmet Özdemir',
   headerTitle: 'Zaman bir illüzyon...',
   description: 'Yazacağım teknik bloglar Feynman`ın gösterdiği yolu izleyecekler.',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://orhancansu.vercel.app/',
+  siteUrl: 'https://furkanahmetozdemir.vercel.app/',
   siteRepo: 'https://github.com/konerjonlar/blog-nextjs-tailwind',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'orhancansu98@gmail.com',
-  github: 'https://github.com/konerjonlar',
-  twitter: 'https://twitter.com/orhancansu15',
+  email: 'furkanahmetozdamir@hotmail.com',
+  github: 'https://github.com/Furkan-Ahmet-Ozdemir',
+  twitter: 'https://twitter.com',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/orhan-cansu',
+  linkedin: 'https://www.linkedin.com/in/furkan-ahmet-ozdemir-09a79a198/',
   locale: 'tr-TR',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: 'https://orhancansu.vercel.app', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'https://furkanahmetozdemir.vercel.app', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: true, // true or false
     googleAnalyticsId: 'G-XKEYWQSSF6', // e.g. UA-000000-2 or G-XXXXXXX
   },

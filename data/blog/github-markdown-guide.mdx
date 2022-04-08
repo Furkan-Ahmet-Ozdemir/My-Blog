@@ -1,0 +1,207 @@
+---
+title: Markdown Rehberi
+date: '2021-12-26'
+tags: ['github', 'rehber']
+draft: false
+summary: 'Tüm blog ihtiyaçlarınız için Markdown rehber sayfası başlıklar, listeler, resimler, tablolardan bahsedilmiştir.'
+---
+
+# Giriş
+
+
+Belirli formatta yazdığımız metinleri html kodlarına çevrilmesinde Markdown ve Mdx araçları kullanılır. Daha tanıdığımız biçimde README.md dosyasının formatıdır. Uzantılar .md ve .mdx şeklinde olur. Bu blog yazılarında da bu teknolojilerden faydalanılmıştır. 
+
+Karşılaştırma yapmak isterseniz.Bu yazının dosyasını yeni sekmede [açın](https://github.com/konerjonlar/blog-nextjs-tailwind/blob/master/data/blog/github-markdown-guide.mdx). Çıkan sayfa bu sitenin kodlarının bulunduğu site. O sayfadaki raw ve blame diye yanyana iki tuş olacak onlara tıkladığınız zaman bu yazının md formatlı halini göreceksiniz. Daha sonra bu sayfadayken F12 tuşuna basın ve bu yazının html kodlarını bulup 2 sayfayı karşılaştırın.
+
+
+Aşağıdaki markdown yazısı bu siteden uyarlanmıştır: https://guides.github.com/features/mastering-markdown/
+
+# Markdown Nedir?
+
+Markdown, web'deki metne stil vermenin bir yoludur. Belgenin görüntüsünü siz kontrol edersiniz; kelimeleri kalın veya italik olarak biçimlendirmek, resim eklemek ve listeler oluşturmak Markdown ile yapabileceğimiz şeylerden sadece birkaçı. Çoğunlukla Markdown, "#" veya "*" gibi birkaç alfabetik olmayan karakterin girildiği normal metindir.
+
+# Sözdizimi kılavuzu
+
+GitHub.com'da veya kendi metin dosyalarınızda herhangi bir yerde kullanabileceğiniz Markdown sözdizimine kısaca değineceğiz.
+
+## Başlıklar
+
+Yazdığımız format en nihayetinde html koduna dönüyor
+
+```
+# Bu h1 etiketi
+
+## Bu h2 etiketi
+
+#### Bu h4 etiketi
+```
+
+# Bu h1 etiketi
+
+## Bu h2 etiketi
+
+#### Bu h4 etiketi
+
+## Vurgu
+
+```
+_Bu yazı italik_
+
+**Bu yazı kalın**
+
+_İç **içe** kullanabilirsin_
+```
+
+_Bu yazı italik_
+
+**Bu yazı kalın**
+
+_İç **içe** kullanabilirsin_
+
+## Listeler
+
+### Sırasız Listeler
+
+```
+- Eleman 1
+- Eleman 2
+  - Eleman 2a
+  - Eleman 2b
+```
+
+- Eleman 1
+- Eleman 2
+  - Eleman 2a
+  - Eleman 2b
+
+### Sıralı Liste
+
+```
+1. Eleman 1
+1. Eleman 2
+1. Eleman 3
+   1. Eleman 3a
+   1. Eleman 3b
+```
+
+1. Eleman 1
+1. Eleman 2
+1. Eleman 3
+   1. Eleman 3a
+   1. Eleman 3b
+
+## Görüntüler
+
+```
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+Format biçimi: ![Yazı](Link)
+```
+
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+## Linklendirme
+
+```
+http://github.com - automatic!
+[GitHub](http://github.com)
+```
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
+## Alıntılama
+
+```
+Kanya West'in dediği gibi:
+
+> Geleceği yaşıyoruz,
+> şimdiki zaman bizim geçmişimiz.
+```
+
+Kanya West'in dediği gibi:
+
+> Geleceği yaşıyoruz,
+> şimdiki zaman bizim geçmişimiz.
+
+## Satır içi kod
+
+```
+Html kodunu direk olarak
+`<addr>`biçiminde kullanabilinir.
+```
+
+Html kodunu direk olarak cümlenin
+`<addr>`biçiminde kullanabilirsiniz.
+
+## Sözdizimi vurgulama
+
+Sözdizimi vurgulamayı aşağıdakilerle nasıl kullanabileceğinize dair bir örnek: [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/):
+
+````
+```js:fancyAlert.js
+function fancyAlert(arg) {
+  if (arg) {
+    $.facebox({ div: '#foo' })
+  }
+}
+```
+````
+
+Üstteki kodun görünümü bu şekilde - tarz kod başlıklarıyla güzelce renklendirilmiş!
+
+```js:fancyAlert.js
+function fancyAlert(arg) {
+  if (arg) {
+    $.facebox({ div: '#foo' })
+  }
+}
+```
+
+## Dipnotlar
+
+```
+İşte basit bir dipnot[^1]. Ondan sonra bazı ek metinlerle.
+
+[^1]: Referansım.
+```
+
+İşte basit bir dipnot[^1].
+
+[^1]: Referansım.
+
+## Görev Listeleri
+
+```
+- [x] gerekli liste sözdizimi (sırasız veya sıralı herhangi bir liste desteklenir)
+- [x] tamamlanmış öğe
+- [ ] tamamlanmamış öğe
+```
+
+- [x] gerekli liste sözdizimi (sırasız veya sıralı herhangi bir liste desteklenir)
+- [x] tamamlanmış öğe
+- [ ] tamamlanmamış öğe
+
+## Tablolar
+
+Bir sözcük listesi toplayarak ve bunları kısa çizgi `-` (ilk satır için) ile bölerek ve ardından her sütunu bir dikey çubuk `|` ile ayırarak tablolar oluşturabilirsiniz:
+
+```
+| İlk Başlık                  | İkinci Başlık                |
+| --------------------------- | ---------------------------- |
+| Hücre 1                     | Hücre 2                      |
+| İçerik ilk sütunda          | İçerik ikinci sütunda        |
+```
+
+| İlk Başlık                  | İkinci Başlık                |
+| --------------------------- | ---------------------------- |
+| Hücre 1                     | Hücre 2                      |
+| İçerik ilk sütunda          | İçerik ikinci sütunda        |
+
+## Üstü Çizgili Yazı
+
+İki tilda ile sarılmış herhangi bir kelime (bunun `~~gibi~~`) ~~üstü çizili~~ görünür.
+
+# Kaynak 
+
+Bazı konularda daha açıklayıcı bir [blog yazısı](https://ceaksan.com/tr/markdown-nedir) okuyabilirsiniz. 
+Mdx için [blog yazısı](https://onurdayibasi.com/tutorials/2020/2020-03-29-mdx-ve-dinamik-sayfalar/).

@@ -2,7 +2,7 @@
 title: Herkese Merhaba...
 date: '2021-12-25'
 tags: ['planlar', 'hakkımda']
-draft: false
+draft: True
 summary: Amaçlarım ve isteklerim ile ilgili giriş yazısı.
 ---
 

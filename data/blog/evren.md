@@ -2,7 +2,7 @@
 title: Nebula Tantana
 date : '2021-12-27'
 tags: [ 'evren','sorgular']
-draft : false
+draft : True
 summary : Evren konseptli düşüncelerimi paylaştığım serinin başlangıç yazısı
 ---
 

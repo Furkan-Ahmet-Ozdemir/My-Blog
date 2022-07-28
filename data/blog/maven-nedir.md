@@ -10,7 +10,7 @@ summary: 'Maven'nın ne olduğundan bahsedilmiştir.'
 Maven proje yönetim aracıdır. Proje oluşturma, bağımlılık(dependency) ve dokümantasyon için kullanılır. Maven dosyasına eklenen bağımlılıklar ile kolay bir şekilde indirmeyi ve proje yerleştirmeyi sağlar. Bağımlılıklar pom.xml dosyasına eklenir.
 
 ## Bağımlılık Ekleme
-https://mvnrepository.com dan kütüphaneleri bulabilirsiniz. Öncelikli olarak hangi kütüphaneyi istediğiniz yazarsınız. Tıkladıktan sonra sürümünü seçmeniz gerekiyor. En son olarak Maven kısmından bağımlılığı göreceksiniz. Onu projenizdeki     pom.xml'e ekleyebilirisiniz.
+https://www.mvnrepository.com dan kütüphaneleri bulabilirsiniz. Öncelikli olarak hangi kütüphaneyi istediğiniz yazarsınız. Tıkladıktan sonra sürümünü seçmeniz gerekiyor. En son olarak Maven kısmından bağımlılığı göreceksiniz. Onu projenizdeki     pom.xml'e ekleyebilirisiniz.
 
 ## Örnek Bağımlılık
 H2 Database için bağımlılık :

@@ -1,7 +1,7 @@
 ---
 name: Furkan Ahmet Özdemir
 avatar: /static/images/avatar2.jpg
-occupation: Web Geliştiricisi, Freelancer, Backend Developer
+occupation: Web Geliştiricisi, Freelancer, Backend
 company: Karabük Üniversitesi
 email: furkanahmetozdemir@hotmail.com
 <!-- twitter: https://twitter.com -->
